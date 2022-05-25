@@ -7,7 +7,7 @@
     <groupId>io.github.ahsirg</groupId>
     <artifactId>scheduling-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A simple spring quartz alternative</description>
     <url>https://github.com/aHsirG/Scheduling</url>
