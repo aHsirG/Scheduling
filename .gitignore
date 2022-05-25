@@ -4,6 +4,8 @@
 target/*
 jacoco/*
 settings.xml
+private.gpg
+public.gpg
 
 scheduling/build/lib/*
 scheduling/build/scheduling.jar
