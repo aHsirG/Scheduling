@@ -1,0 +1,1 @@
+Pom for aggregate jar

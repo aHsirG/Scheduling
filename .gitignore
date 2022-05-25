@@ -3,6 +3,7 @@
 */target/*
 target/*
 jacoco/*
+settings.xml
 
 scheduling/build/lib/*
 scheduling/build/scheduling.jar
