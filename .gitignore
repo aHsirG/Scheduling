@@ -1,0 +1,9 @@
+*.iml
+.idea
+*/target/*
+target/*
+jacoco/*
+
+scheduling/build/lib/*
+scheduling/build/scheduling.jar
+scheduling/build/version.txt
