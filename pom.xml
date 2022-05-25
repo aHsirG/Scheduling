@@ -28,8 +28,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/aHsirG/Scheduling.git</connection>
-        <developerConnection>scm:git:git@github.com:aHsirG/Scheduling.git</developerConnection>
+        <connection>scm:git:git@github.com:aHsirG/Scheduling.git</connection>
+        <developerConnection>scm:git:ssh://github.com:aHsirG/Scheduling.git</developerConnection>
         <url>https://github.com/aHsirG/Scheduling</url>
     </scm>
 
