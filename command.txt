@@ -1,1 +1,6 @@
+запустить агента
+C:\Program Files (x86)\gnupg\bin>gpg-connect-agent -v
+тестовый install
+mvn -X --settings C:\\Project\\Scheduling\\settings.xml clean install
+целевой
 mvn --settings C:\\Project\\Scheduling\\settings.xml clean deploy
