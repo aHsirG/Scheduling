@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.ahsirg</groupId>
+    <groupId>io.github.ahsirg.scheduling</groupId>
     <artifactId>scheduling-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.2</version>
@@ -40,8 +40,8 @@
     </scm>
 
     <modules>
-        <module>scheduling-lib</module>
-        <module>scheduling-core</module>
+        <module>lib</module>
+        <module>core</module>
         <module>scheduling</module>
     </modules>
 
@@ -116,13 +116,13 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.github.ahsirg</groupId>
-                <artifactId>scheduling-lib</artifactId>
+                <groupId>io.github.ahsirg.scheduling</groupId>
+                <artifactId>lib</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.ahsirg</groupId>
-                <artifactId>scheduling-core</artifactId>
+                <groupId>io.github.ahsirg.scheduling</groupId>
+                <artifactId>core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
