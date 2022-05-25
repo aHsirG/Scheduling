@@ -9,6 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SchedulingMain {
     public static void main(String[] args) {
-        SpringApplication.run(SchedulingMain.class, args);
+        SpringApplication.run(SchedulingLibMain.class, args);
     }
 }

@@ -5,7 +5,7 @@
     <parent>
         <artifactId>scheduling-parent</artifactId>
         <groupId>io.github.ahsirg</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -86,7 +86,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>io.github.ahsirg.scheduling.SchedulingMain</mainClass>
+                            <mainClass>io.github.ahsirg.scheduling.SchedulingLibMain</mainClass>
                         </manifest>
                         <manifestEntries>
                             <!--suppress UnresolvedMavenProperty -->

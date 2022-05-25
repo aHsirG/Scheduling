@@ -7,10 +7,17 @@
     <groupId>io.github.ahsirg</groupId>
     <artifactId>scheduling-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A simple spring quartz alternative</description>
     <url>https://github.com/aHsirG/Scheduling</url>
+
+<!--
+   mvn versions:set -DnewVersion=1.2.3
+   mvn versions:revert
+   mvn versions:commit
+-->
+
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -71,9 +78,11 @@
                             <execution>
                                 <id>sign-artifacts</id>
                                 <phase>verify</phase>
+<!--
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+ -->
                                 <configuration>
                                     <skip>true</skip>
                                     <gpgArguments>
