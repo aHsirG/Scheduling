@@ -14,11 +14,11 @@
     <dependencies>
         <dependency>
             <groupId>io.github.ahsirg</groupId>
-            <artifactId>scheduling-core</artifactId>
+            <artifactId>scheduling-lib</artifactId>
         </dependency>
         <dependency>
             <groupId>io.github.ahsirg</groupId>
-            <artifactId>scheduling-lib</artifactId>
+            <artifactId>scheduling-core</artifactId>
         </dependency>
     </dependencies>
 
@@ -116,7 +116,7 @@
                         <version>1.7</version>
                         <executions>
                             <execution>
-                                <phase>package</phase>
+                                <phase>deploy</phase>
                                 <goals>
                                     <goal>run</goal>
                                 </goals>
